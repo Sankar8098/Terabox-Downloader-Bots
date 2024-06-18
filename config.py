@@ -5,7 +5,7 @@ from os import environ
 # Telegram API credentials
 API_ID = '23990433'  # Replace with your API ID
 API_HASH = 'e6c4b6ee1933711bc4da9d7d17e1eb20'  # Replace with your API Hash
-BOT_TOKEN = '5811431199:AAEN_0Az6QE_E8HCvJM7JhD0WqPobmRHK2k'  # Replace with your bot token
+BOT_TOKEN = '5811431199:AAGad6YjD5nC9PTgurWIbRM4krUpopevpf8'  # Replace with your bot token
 
 # Redis database credentials
 HOST = 'redis-15392.c304.europe-west1-2.gce.cloud.redislabs.com'  # Replace with your Redis host
