@@ -8,9 +8,9 @@ API_HASH = 'e6c4b6ee1933711bc4da9d7d17e1eb20'  # Replace with your API Hash
 BOT_TOKEN = '5811431199:AAGad6YjD5nC9PTgurWIbRM4krUpopevpf8'  # Replace with your bot token
 
 # Redis database credentials
-HOST = 'redis-15392.c304.europe-west1-2.gce.cloud.redislabs.com'  # Replace with your Redis host
-PORT = 6379  # Default Redis port is 6379
-PASSWORD = 'cbw7xHuW3uJmddWJRRqxiSWmRvKi81GM'  # Replace with your Redis password
+REDIS_HOST = 'redis-15392.c304.europe-west1-2.gce.cloud.redislabs.com'  # Replace with your Redis host
+REDIS_PORT = 6379  # Default Redis port is 6379
+REDIS_PASSWORD = 'cbw7xHuW3uJmddWJRRqxiSWmRvKi81GM'  # Replace with your Redis password
 
 # Private chat ID where media files will be sent and stored
 PRIVATE_CHAT_ID = '-1001571491517'  # Replace with your private chat ID
