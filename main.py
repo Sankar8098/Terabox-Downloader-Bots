@@ -190,7 +190,7 @@ async def start(m: UpdateNewMessage):
         reply_text,
         buttons=[
             [
-                Button.url("Update Channel", "https://t.me/https://1024terabox.com/s/1JG0a6H63scshV4iJbCgVLA"),
+                Button.url("Update Channel", "SK_MoviesOffl"),
                 Button.url(
                     "Repo", "https://github.com/TheDextiN/Terabox-Downloader-Bot"
                 ),
