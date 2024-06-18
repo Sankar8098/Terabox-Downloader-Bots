@@ -1,24 +1,28 @@
 from os import environ
 
+# config.py
 
-# BOT CONFIG
-API_ID = environ.get("API_ID", 23990433)  # api id
-API_HASH = environ.get("API_HASH", "e6c4b6ee1933711bc4da9d7d17e1eb20")  # api hash
-BOT_TOKEN = environ.get("BOT_TOKEN", "5811431199:AAEN_0Az6QE_E8HCvJM7JhD0WqPobmRHK2k")  # bot token
+# Telegram API credentials
+API_ID = '23990433'  # Replace with your API ID
+API_HASH = 'e6c4b6ee1933711bc4da9d7d17e1eb20'  # Replace with your API Hash
+BOT_TOKEN = '5811431199:AAEN_0Az6QE_E8HCvJM7JhD0WqPobmRHK2k'  # Replace with your bot token
 
-# REDIS
-REDIS_HOST = environ.get("REDIS_HOST", "redis-15392.c304.europe-west1-2.gce.cloud.redislabs.com")  # redis host uri
-REDIS_PORT = environ.get("REDIS_PORT", 15392)  # redis port
-REDIS_PASSWORD = environ.get(
-    "REDIS_PASSWORD", "cbw7xHuW3uJmddWJRRqxiSWmRvKi81GM"
-)  # redis password
+# Redis database credentials
+HOST = 'redis-15392.c304.europe-west1-2.gce.cloud.redislabs.com'  # Replace with your Redis host
+PORT = 6379  # Default Redis port is 6379
+PASSWORD = 'cbw7xHuW3uJmddWJRRqxiSWmRvKi81GM'  # Replace with your Redis password
 
+# Private chat ID where media files will be sent and stored
+PRIVATE_CHAT_ID = '-1001571491517'  # Replace with your private chat ID
 
-ADMINS = [5821871362]
-OWNER_ID = 5821871362  # Replace with your Telegram user ID
-PRIVATE_CHAT_ID = -1001571491517  # CHAT WHERE YOU WANT TO STORE VIDEOS
-USER_CHANNEL = -1001571491517
-DUMP_CHANNEL = -1001571491517
+# List of admin user IDs who can use admin commands
+ADMINS = [
+    5821871362,  # Replace with Telegram user IDs of the admins
+    987654321
+]
+
+# Other settings (if any)
+# Add any other configuration variables you need here
 
 
 # Config
